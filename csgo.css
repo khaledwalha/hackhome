@@ -1,0 +1,183 @@
+.choice {
+  background-color: red;
+  background-image: linear-gradient(to right, #061700, #2d8017);
+  margin-top: 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  align-items: center;
+  height: 70px;
+  padding-right: 100px;
+}
+.tips {
+  width: 100cm;
+  height: 12cm;
+  overflow: hidden;
+  margin-top: 0.2cm;
+  background-image: none ;
+}
+.person {
+  margin-top: 2cm;
+  margin-left: 23cm;
+  position: absolute;
+  width: 18cm;
+}
+.choose {
+  margin-top: 0.2cm;
+  border-top: solid 10px green;
+  border-bottom: solid 10px green;
+  width: 41cm;
+  height: 20cm;
+  background-attachment: fixed;
+  background-color: #080808;
+  background-image: url("https://www.stickk.com//images/site/index/2019_stickK_Instagram_dots.gif");
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: 12rem;
+  position: relative;
+}
+.coach {
+  width: 15cm;
+  position: absolute;
+  left: 0;
+}
+.coachbut {
+  height: 4cm;
+  margin-top: 9cm;
+  margin-left: 15cm;
+  position: absolute;
+  width: 7cm;
+  border-radius: 20%;
+  background: #1e550f;
+  border: none;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.upbut {
+  height: 4cm;
+  margin-top: 9cm;
+  margin-left: 25cm;
+  position: absolute;
+  width: 7cm;
+  border-radius: 20%;
+  background: #1e550f;
+  border: none;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.aho{
+  text-transform: uppercase;
+  font-weight: bold;
+border: white 2px solid;
+position: absolute;
+bottom: 150px;
+}
+
+.coachbut:hover{
+  cursor: pointer;
+}
+.upbut:hover{
+  cursor: pointer;
+}
+.first {
+  margin-left: 4cm;
+  height: 9cm;
+  border-radius: 20px;
+  margin-top: 2cm;
+  width: 13cm;
+}
+.second {
+  margin-left: 4cm;
+  height: 9cm;
+  border-radius: 20px;
+  margin-top: 11.5cm;
+  width: 15cm;
+  position: absolute;
+}
+.third {
+  margin-left: -13cm;
+  height: 9cm;
+  border-radius: 20px;
+  margin-top: 20cm;
+  width: 13cm;
+  margin-top: 22cm;
+  position: absolute;
+}
+.ph {
+  color: white;
+  margin-left: 18cm;
+  margin-top: 5cm;
+  position: absolute;
+}
+.ph1 {
+  color: white;
+  margin-left: 3cm;
+  margin-top: 5cm;
+  position: absolute;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+.ph2 {
+  color: white;
+  margin-left: 18cm;
+  margin-top: 15cm;
+  position: absolute;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+.tip {
+  width: 12cm;
+  height: 2cm;  
+  background-color: rgb(34, 34, 34);
+  margin-left: 5cm;
+  margin-top: 1.5cm;
+  border-radius: 6cm ;
+  color: white;
+  line-height: 10px;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.prefer{
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 22cm;
+}
+.abab{
+  color: #1e550f;
+  font-weight: bold;
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+  left: 150px;
+}
+.pick-option{
+  font-family: 'FROG' ;
+  text-align: center;
+  font-size: 40;
+  position: relative;
+  top: -20px;
+  left: 400px;
+  text-shadow: grey -2px -4px 5px;
+}
+@font-face{
+  font-family: 'FROG' ;
+  src: url(fonts/CUTE\ FROG.otf);
+  font-style: normal;
+  font-weight: 100;
+}
+.tip{
+background-color:rgb(5, 58, 8);
+color: black;
+font-weight: bold;
+font-family: 'FROG';
+text-align: center;
+}

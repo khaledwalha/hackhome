@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>  
+    <head> <title>  RankUP  </title> 
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8ba02dc479.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+</head>
+
+    <body>
+        
+        <header class = "choice ">
+                
+                    <div class= "logo">
+                        <i class="fas fa-angle-double-up"></i>
+                        <h4 class="sitename"> RankUP </h4>
+                    </div>
+                    <li><a href ="home.html"> home </a></li>
+                    <li><a href=aboutus.html> About us  </a></li>
+                    <li><a href="signup.html">  Sign up  </a></li>
+                
+        </header>
+      
+       <form action="https://www.paypal.com/cgi-bin/webscr" class= "container">
+        <p>
+            <h3 class="option" >Steam Username</h3><br /><input type="text" placeholder="EX : samir">
+            <h3 class="option">Email Adress</h3><br /><input type="text" placeholder="EX : rankup@rank.com">
+            <h3 class="option">Password</h3>    <input type="password" placeholder=""/>
+            <h3 class="option">Date of birth  </h3>  <br /><input type="date" />
+            
+
+            <h3 for="select">Select your favourite player here :</h3><br />
+            
+            <select id="dali" onchange ="myfunction()" class = "exep" name="select"  style=' font-family:Arial, FontAwesome;'>
+                <option >player 1 &#xf005;</option>
+                <option >player 2 &#xf005;&#xf005;&#xf005;</option>
+                <option >player 3 &#xf005;&#xf005;</option>
+                <option >player4 &#xf005;&#xf005;&#xf005;&#xf005;&#xf005;</option>
+                <option >player5 &#xf005;&#xf005;&#xf005;&#xf005;</option>
+                <option >player6 &#xf005;</option>
+                <option >player7 &#xf005;&#xf005;</option>
+                <option >player8 &#xf005;&#xf005;&#xf005;&#xf005;&#xf005;</option>
+
+            </select>
+            <input type="hidden" name="cmd" value="_xclick">
+            <input type="hidden" name="business" value="accounts@freelanceswitch.com">
+            
+
+            <input type="hidden" name="no_shipping" value="0">
+            <input type="hidden" name="no_note" value="1">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="lc" value="AU">
+            <input type="hidden" name="bn" value="PP-BuyNowBF">
+            <input type="hidden" name="return" value="https://net.tutsplus.com/payment-complete/%22%3E">
+
+            
+   
+            <br/>
+            <input type="submit">
+
+        </p>
+     </form>
+     <script src="mais.js" >  </script>
+    </body>
+
+</html>

@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #faf4eb;
+  
+}
+.wave{
+    position: fixed;
+    height: 100%;
+    bottom: 0;
+    left: -50px;
+    z-index: -1;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-gap: 7rem;
+    padding: 0 2rem;
+    
+}
+.login-container{
+    display: flex;
+    align-items:center ;
+    text-align: center;
+}
+.img{
+  display: flex;
+  align-items: center;
+  size: 200px;
+}
+.img img{
+    width: 500px;
+}
+
+.avatar{
+    width: 200px;
+}
+form h2{
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    margin: 15px 0;
+    color: #333;
+}
+.inputs{
+  position: relative;
+    display: grid;
+    grid-template-columns: 1fr 25fr;
+    margin: 25px 0;
+    padding: 5px 0 ;
+    border-bottom: 2px solid #d9d9d9;
+}
+.inputs:after , .inputs:before{
+    content:'';
+    position: absolute;
+    bottom: 0px;
+    width: 0;
+    height: 2px;
+    background-color:#115e17;
+    transition: .3s;
+}
+.inputs::after{
+  right: 50%;
+
+}
+.inputs::before{
+  left: 50%;
+}
+
+.inputs.focus .i i {
+    color: #115e17;
+}
+.inputs.focus div h5{
+    top: -8px;
+    font-size: 15px;
+    transition: .3s ;
+}
+.inputs.focus:after , .inputs.focus:before {
+  width:50% ;
+  
+}
+
+.inputs.one{
+    margin-top: 0;
+}
+.inputs.two{
+    margin-bottom: 10px;
+}
+.i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i i {
+    color:  #d9d9d9;
+}
+.inputs > div {
+    position: relative;
+    height: 45px ;
+}
+.inputs > div h5 {
+  position: absolute;
+ left: 10px;
+ color:#999;
+ top: 25%;
+ font-size: 18px;
+
+ 
+}
+.input {
+    
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0.5rem 0.7rem;
+    font-size: 1rem;
+    font-family: 'Poppins' ;
+    
+}
+a{
+    display: block;
+    text-align: right;
+    
+    text-decoration: none;
+    color: #999;
+    font-size: 0.9rem;
+    transition: .3s;
+}
+a:hover{
+    color: #115e17;
+}
+.kamelt{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    margin: 1rem 0 ;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right ,#061700  , #52c234   );
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Poppins';
+    background-size: 100%;
+    text-transform: uppercase;
+    
+    
+}
+.kamelt:hover{
+    background-position: right;
+}
+.kamelt:active{
+    border: 4px solid rgb(175, 116, 39) ;
+}
+.error{
+    color:rgb(116, 2, 2);
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
