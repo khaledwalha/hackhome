@@ -19,7 +19,7 @@ document.getElementById("wfa").addEventListener("click",function(e){
 	}
 	if(password.value&&username.value){
 		document.querySelector('.error').innerHTML =  ""; 
-		window.location.href ="home.html"
+		window.location.href ="index.html"
 		username.value = "" ; 
 		password.value = "" ;  
 		s.classList.remove("focus") ; 
